@@ -1,0 +1,50 @@
+body {
+    background-color: #eee;
+    height:100%;
+    background: rgba(33, 33, 54, 0.5);
+  }
+
+#box{
+   overflow: hidden; 
+   height: 480px;
+   width:  480px;
+}
+
+#box div{
+    float: left;
+    width: 40px;
+    height:40px;
+}
+.hide{
+    display: none;
+}
+#init{
+    position: relative;
+}
+#init img{
+    opacity: 0.5;
+}
+#init .choice{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.color1{
+    background-image: url(../img/money.png);
+    background-size: contain;
+}
+.color2{
+    background: rgb(80, 80, 146)
+}
+.color3{
+    background-image: url(../img/wall.png);
+    background-size: contain;
+}
+.color4{
+    background-image: url(../img/box.png);
+    background-size: contain;
+}
+.position{
+    background-image: url(../img/360chrome.png)
+}
