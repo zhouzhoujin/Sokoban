@@ -28,23 +28,23 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
 }
-.color1{
+.img1{
     background-image: url(../img/money.png);
     background-size: contain;
 }
-.color2{
-    background: rgb(80, 80, 146)
+.img2{
+    background-color: rgb(80, 80, 146);
 }
-.color3{
+.img3{
     background-image: url(../img/wall.png);
     background-size: contain;
 }
-.color4{
+.img4{
     background-image: url(../img/box.png);
     background-size: contain;
 }
 .position{
-    background-image: url(../img/360chrome.png)
+    background-image: url(../img/360chrome.png);
 }
